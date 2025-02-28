@@ -10,7 +10,7 @@ st.set_page_config(page_title="College Chatbot 🎓", page_icon="🎓", layout="
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-csv_url = "svcew_deatils.csv"
+csv_url = "svcew_details.csv"
 
 try:
     df = pd.read_csv(csv_url)
