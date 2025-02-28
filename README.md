@@ -1,40 +1,37 @@
-SVECW College Chatbot 🎓
+# SVECW College Chatbot 🎓
 
-Overview
+## 📌 Overview
+The **SVECW College Chatbot** is an AI-driven chatbot designed to provide quick and accurate responses to college-related queries. It leverages a predefined Q&A dataset along with AI-generated responses for unmatched questions, ensuring a seamless user experience.
 
-The SVECW College Chatbot is an AI-powered chatbot built with Streamlit that helps users get information about the college. It uses a CSV database to find the closest matching answers to user queries and, if no match is found, generates responses using Google's Gemini AI.
+## ✨ Features
+- 🎯 **Instant Query Resolution**: Get quick answers to common college-related questions.
+- 🔍 **Smart Search**: Uses TF-IDF and cosine similarity to match user queries with existing data.
+- 🤖 **AI Assistance**: If no relevant answer is found, the chatbot generates responses using Google Gemini AI.
+- 💡 **User-Friendly Interface**: A clean and intuitive chat-based UI built with Streamlit.
 
-Features
+## 🛠️ Technologies Used
+- **Python**: Core programming language for the chatbot logic.
+- **Streamlit**: Interactive UI framework for web deployment.
+- **Pandas**: Efficient data handling and processing.
+- **Google Gemini AI**: AI-powered responses for unmatched queries.
+- **Scikit-learn**: Used for text vectorization and similarity matching (TF-IDF & Cosine Similarity).
 
-Interactive Chat Interface: Users can ask questions and get instant responses.
+## 🚀 Usage
 
-CSV-Based Q&A Matching: Finds the best answer from a dataset of frequently asked questions.
 
-AI-Powered Responses: Uses Google's Gemini AI to generate answers when no match is found.
+### 🔹 Interaction
 
-User-Friendly UI: Built with Streamlit for an easy-to-use interface.
+Type your query in the chatbox.
 
-Technologies Used
+The chatbot searches for the best-matching response from the dataset.
 
-Python
+If no relevant answer is found, AI-generated responses will be provided.
 
-Streamlit
+Enjoy seamless and accurate information retrieval!
 
-Pandas
 
-Google Generative AI (Gemini-1.5-Flash)
+### Sample:
+ <img width="659" alt="image" src="https://github.com/user-attachments/assets/bebbad67-e281-4d32-b4d4-b75c78ea52a2" />
 
-Scikit-learn (TF-IDF & Cosine Similarity)
 
-Usage
 
-Start the chatbot using streamlit run chatbot.py.
-
-Type your queries in the chat input box.
-
-If a match is found in the CSV, it will respond with a predefined answer.
-
-If no match is found, it will use Gemini AI to generate an answer.
-
-sample:
-  <img width="659" alt="image" src="https://github.com/user-attachments/assets/8d27cd82-d393-4ae0-8c49-227b6015d96f" />
